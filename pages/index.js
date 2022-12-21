@@ -3,9 +3,8 @@ import { Inter } from '@next/font/google'
 import Navbar from '../src/sections/navbar'
 import Prompt from '../src/sections/prompt'
 const inter = Inter({ subsets: ['latin'] })
-import { VStack, Heading} from '@chakra-ui/react'
+import { VStack, Heading, Button} from '@chakra-ui/react'
 import Event from '../src/sections/event'
-
 export default function Home() {
   return (
     <>
@@ -19,9 +18,14 @@ export default function Home() {
       <Event />
       <Event />
      </VStack>
+    
 
 
     </VStack>
+   
+    
+
+
     
     </>
     
